@@ -6,5 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Task.create(title: "Task 1", note: "This is the first task", completed: FALSE, deadline: '12-31-2020 12:00:00')
+Task.create(title: "Task 1", note: "This is the first task", completed: FALSE, deadline: '31-12-2020 12:00:00')
 Task.create(title: "Task 2", note: "This is the second task", completed: FALSE, deadline: '01-01-2021 12:00:00')
